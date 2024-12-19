@@ -10,8 +10,8 @@ const server=http.createServer((req,res)=>{
     if(req.url=='/'){
         res.end("this si home")
     }
-    if(req.url=='/demo'){
-        res.end("this si demo")
+    if(req.url=='/form'){
+        res.render('index')
     }
     
 })
